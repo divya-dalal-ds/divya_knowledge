@@ -1,148 +1,175 @@
+---
 version: 3
 domain: computational_biology
-created_by: criprcas9
+created_by: divya-dalal-ds
 seed_examples:
   - context: |
-	Bionformatics is an interdisciplinary field of science that
-	develops methods and software tools for understanding biological
-	data, especially when the data sets are large and complex.
-	The author of essential bioinformatics is Jin Xiong. The term
-	bioinformatics is coined by Paulien Hogeweg and Ben Hesper in 1970.
-	Structural bioinformatics is the branch of bioinformatics that is related
-	to the analysis and prediction of the three-dimensional structure of
-	biological macromolecules such as protein, RNA and DNA.
-	In bioinformatics, a sequence alignment is a way of arranging the sequences
-	of DNA, RNA, or protein to identif regions of similarity that may be a
-	consequence of functional, structural, or evolutionary
-	relationships between sequences.
+      Bionformatics is an interdisciplinary field of science that
+      develops methods and software tools for understanding biological
+      data, especially when the data sets are large and complex.
+      The author of essential bioinformatics is Jin Xiong. The term
+      bioinformatics is coined by Paulien Hogeweg and Ben Hesper in 1970.
+      Structural bioinformatics is the branch of bioinformatics that is related
+      to the analysis and prediction of the three dimensional structure of
+      biological macromolecules such as protein, RNA and DNA.
+      In bioinformatics, a sequence alignment is a way of arranging the
+      sequences of DNA, RNA, or protein to identify regions of
+      similarity that may be a
+      consequence of functional, structural, or evolutionary
+      relationships between sequences.
     questions_and_answers:
-	- question: |
-		What is Bioinformatics?
-	  answer: |
-		Bionformatics is an interdisciplinary field of science that develops
-		methods and software tools for understanding biological data,
-		especially when the data sets are large and complex.
-	- question: |
-		who wrote the book essential bioinformatics?
-	  answer:
-		The book esssential bioinformatics is written by Jin Xiong.
-	- question: |
-		who coined the term bioinformatics?
-	  answer: |
-		The term bioinformatics is coined by Paulien Hogeweg and Ben Hesper in 1970.
-	- question: |
-		what is structural bioinformatics?
-	  answer: |
-		Structural bioinformatics is the branch of bioinformatics that is
-		related to the analysis and prediction of the three-dimensional
-		structure of biological macromolecules such as protein, RNA and DNA.
-    - context: |
-	Computational biology refers to the use of techniques in
-	computer science, data analysis, mathematical modeling and
-	computational simulations to understand biological systems 
-	and relationships. An intersection of computer
-	science, biology, and data science, the field also has foundations
-	in applied mathematics, molecular biology, cell biology,
-	chemistry, and genetics. Systems biology is one of its applications
-	which consists of computing the
-	interactions between various biological systems ranging
-	from the cellular level to entire populations
-	with the goal of discovering emergent properties.
+      - question: |
+          What is Bioinformatics?
+        answer: |
+          Bionformatics is an interdisciplinary field
+          of science that develops
+          methods and software tools for understanding biological data,
+          especially when the data sets are large and complex.
+      - question: |
+          who wrote the book essential bioinformatics?
+        answer:
+          The book esssential bioinformatics is written by Jin Xiong.
+      - question: |
+          who coined the term bioinformatics?
+        answer: |
+          The term bioinformatics is coined by Paulien Hogeweg and
+          Ben Hesper in 1970.
+      - question: |
+          what is structural bioinformatics?
+        answer: |
+          Structural bioinformatics is the branch of bioinformatics that is
+          related to the analysis and prediction of the three dimensional
+          structure of biological macromolecules such as protein, RNA and DNA.
+  - context: |
+      Computational biology refers to the use of techniques in
+      computer science, data analysis, mathematical modeling and
+      computational simulations to understand biological systems
+      and relationships. An intersection of compute
+      science, biology, and data science, the field also has foundations
+      in applied mathematics, molecular biology, cell biology,
+      chemistry, and genetics. Systems biology is one of its applications
+      which consists of computing the
+      interactions between various biological systems ranging
+      from the cellular level to entire populations
+      with the goal of discovering emergent properties.
     questions_and_answers:
-	- question: |
-		What is Computational biology?
-	  answer: |
-		Computational biology is the other name for
-		Bionformatics and it uses techniques in computer
-		science, data analysis, mathematical modeling and
-		computational simulations to understand biological systems.
-	- question: |
-		Which domains does it compose of?
-	  answer:
-		It composes of domains like science, biology and data science.
-	- question: |
-		what is systems biology?
-	  answer: |
-		Systems biology is an application of bioinformatics which
-		provides various computational tools to model biological
-		systems in-silico.
-	- question: |
-		what is in-silico?
-	  answer: |
-		In-silico refers to the processes occuring within the computers.
-    - context: |
-	Perhaps the best-known example of computational biology, the
-	Human Genome Project, officially began in 1990.By
-	2003, the project had mapped around 85% of the human
-	genome, satisfying its initial goals. Work
-	continued, however, and by 2021 level a completegenome
-	was reached with only 0.3% remaining bases covered by
-	potential issues.The missing Y chromosome was
-	added in January 2022.	
+      - question: |
+          What is Computational biology?
+        answer: |
+          Computational biology is the other name for
+          Bionformatics and it uses techniques in computer
+          science, data analysis, mathematical modeling and
+          computational simulations to understand biological systems.
+      - question: |
+          Which domains does it compose of?
+        answer:
+          It composes of domains like science, biology and data science.
+      - question: |
+          what is systems biology?
+        answer: |
+          Systems biology is an application of bioinformatics which
+          provides various computational tools to model biological
+          systems in silico
+      - question: |
+          what is in silico?
+        answer: |
+          In silico refers to the processes occuring within the computers.
+  - context: |
+      Perhaps the best known example of computational biology, the
+      Human Genome Project, officially began in 1990.By
+      2003, the project had mapped around 85% of the human
+      genome, satisfying its initial goals. Work
+      continued, however, and by 2021 level a completegenome
+      was reached with only 0.3% remaining bases covered by
+      potential issues.The missing Y chromosome was
+      added in January 2022.
     questions_and_answers:
-	- question: |
-		What led to the awareness of bioinformatics?
-	  answer: |
-		The human genome project.
-	- question: |
-		When did the Human genome project began?
-	  answer:
-		It officially starrted in 1990.
-	- question: |
-		what is HGP?
-	  answer: |
-		HGP is the Human Genome project which officially
-		began in 1990.By 2003, the project had mapped
-		around 85% of the human genome, satisfying its
-		initial goals.
-	- question: |
-		when did it officially get completed?
-	  answer: |
-		Work continued, however, and by 2021 level
-		a completegenome was reached with only 0.3percent remaining
-		bases covered by potential issues.The missing Y chromosome was
-		added in January 2022.
-- context: |
-	Here are some of the best colleges for bioinformatics
-	Johns Hopkins University, Stanford University, University of
-	California—San Diego (UCSD), Massachusetts Institute of
-	Technology (MIT). Computational pharmacology is the study of
-	the effects of genomic data to find links between specific
-	genotypes and diseases and then screening drug data. The
-	pharmaceutical industry requires a shift in methods
-	to analyze drug data.
+      - question: |
+          What led to the awareness of bioinformatics?
+        answer: |
+          The human genome project.
+      - question: |
+          When did the Human genome project began?
+        answer:
+          It officially starrted in 1990.
+      - question: |
+          what is HGP?
+        answer: |
+          HGP is the Human Genome project which officially
+          began in 1990.By 2003, the project had mapped
+          around 85% of the human genome, satisfying its
+          initial goals.
+      - question: |
+          when did it officially get completed?
+        answer: |
+          Work continued, however, and by 2021 level
+          a completegenome was reached with only 0.3percent remaining
+          bases covered by potential issues.The missing Y chromosome was
+          added in January 2022.
+  - context: |
+      Here are some of the best colleges for bioinformatics
+      Johns Hopkins University, Stanford University, University of
+      California San Diego, Massachusetts Institute of
+      Technology. Computational pharmacology is the study of
+      the effects of genomic data to find links between specific
+      genotypes and diseases and then screening drug data. The
+      pharmaceutical industry requires a shift in methods
+      to analyze drug data.
     questions_and_answers:
-	- question: |
-		Can I pursue bioinformatics as a degree?
-	  answer: |
-		Yes, there are several colleges offering bioinformatics
-		a course for backelors and masters.
-	- question: |
-		Can you list a few colleges?
-	  answer:
-		Johns Hopkins University - Known for its strong emphasis
-		on research and interdisciplinary studies in bioinformatics.
-		Stanford University - Offers a robust bioinformatics
-		program with access to cutting-edge technology and research.
-		University of California—San Diego (UCSD) - Renowned for
-		its bioinformatics and computational biology programs.
-		Massachusetts Institute of Technology (MIT) - Provides
-		a comprehensive curriculum in bioinformatics and related fields.
-	- question: |
-		what is computational pharmacology?
-	  answer: |
-		is the study of the effects of genomic data
-		to find links between specific
-		genotypes and diseases and then screening drug data.
-	- question: |
-		how will bioinformatics help in pharaceutical industry?
-	  answer: |
-		The drug data analysis will be done on the computers which
-		reduce the time and increase efficiency of research.
+      - question: |
+          Can I pursue bioinformatics as a degree?
+        answer: |
+          Yes, there are several colleges offering bioinformatics
+          a course for backelors and masters.
+      - question: |
+          Can you list a few colleges?
+        answer:
+          Johns Hopkins University Known for its strong emphasis
+          on research and interdisciplinary studies in bioinformatics.
+          Stanford University Offers a robust bioinformatics
+          program with access to cutting edge technology and research.
+          University of California San Diego Renowned for
+          its bioinformatics and computational biology programs.
+          Massachusetts Institute of Technology (MIT) Provides
+          a comprehensive curriculum in bioinformatics and related fields.
+      - question: |
+          what is computational pharmacology?
+        answer: |
+          It is the study of the effects of genomic data
+          to find links between specific
+          genotypes and diseases and then screening drug data.
+      - question: |
+          how will bioinformatics help in pharaceutical industry?
+        answer: |
+          The drug data analysis will be done on the computers which
+          reduce the time and increase efficiency of research.
 
+  - context: |
+      Molecular dynamics (MD) simulations are widely used in bioinformatics
+      to simulate the physical movements of atoms and molecules.
+      It helps predict protein folding, ligand binding, and structural changes.
+    questions_and_answers:
+      - question: |
+          What is molecular dynamics simulation?
+        answer: |
+          Molecular dynamics is a computational simulation method for studying
+          the physical movements of atoms and molecules over time.
+      - question: |
+          How is MD used in bioinformatics?
+        answer: |
+          It is used to simulate protein folding, structural flexibility,
+          and interactions between biomolecules like proteins and ligands.
+      - question: |
+          What are the applications of MD simulations in bioinformatics?
+        answer: |
+          MD simulations are used to predict protein folding, ligand binding,
+          and structural changes in biomolecules, aiding in drug discovery
+          and understanding biological processes.
 document_outline: |
-  Overview of bioinformatics and computational biology.
+  Overview computational biology and bioinformatics.
 
 document:
-  repo: https://github.com/divya-dalal-ds/ilab-demo.git
-  commit: fef7977
+  repo: https://github.com/divya-dalal-ds/divya_knowledge.git
+  commit: 
+  patterns:
+    - bioinformatics.md
