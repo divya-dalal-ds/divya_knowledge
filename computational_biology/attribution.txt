@@ -1,0 +1,5 @@
+Title of work: Bioinformatics
+Link to work: https://en.wikipedia.org/wiki/Bioinformatics
+Revision: https://en.wikipedia.org/wiki/Structural_bioinformatics
+License of the work: CC-BY-SA-4.0
+Creator names: Wikipedia Authors
