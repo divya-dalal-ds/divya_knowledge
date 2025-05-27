@@ -12,11 +12,6 @@ seed_examples:
       Structural bioinformatics is the branch of bioinformatics that is related
       to the analysis and prediction of the three dimensional structure of
       biological macromolecules such as protein, RNA and DNA.
-      In bioinformatics, a sequence alignment is a way of arranging the
-      sequences of DNA, RNA, or protein to identify regions of
-      similarity that may be a
-      consequence of functional, structural, or evolutionary
-      relationships between sequences.
     questions_and_answers:
       - question: |
           What is Bioinformatics?
@@ -50,8 +45,7 @@ seed_examples:
       chemistry, and genetics. Systems biology is one of its applications
       which consists of computing the
       interactions between various biological systems ranging
-      from the cellular level to entire populations
-      with the goal of discovering emergent properties.
+      from the cellular level to entire populations.
     questions_and_answers:
       - question: |
           What is Computational biology?
@@ -80,7 +74,7 @@ seed_examples:
       2003, the project had mapped around 85% of the human
       genome, satisfying its initial goals. Work
       continued, however, and by 2021 level a completegenome
-      was reached with only 0.3% remaining bases covered by
+      was reached with only 0.3percent remaining bases covered by
       potential issues.The missing Y chromosome was
       added in January 2022.
     questions_and_answers:
@@ -124,14 +118,11 @@ seed_examples:
       - question: |
           Can you list a few colleges?
         answer:
-          Johns Hopkins University Known for its strong emphasis
-          on research and interdisciplinary studies in bioinformatics.
-          Stanford University Offers a robust bioinformatics
-          program with access to cutting edge technology and research.
-          University of California San Diego Renowned for
-          its bioinformatics and computational biology programs.
-          Massachusetts Institute of Technology (MIT) Provides
-          a comprehensive curriculum in bioinformatics and related fields.
+          Johns Hopkins University, Stanford University
+          provide access to cutting edge technology and research.
+          University of California San Diego and
+          Massachusetts Institute of Technology aid in
+          a comprehensive curriculum in bioinformatics.
       - question: |
           what is computational pharmacology?
         answer: |
@@ -167,9 +158,8 @@ seed_examples:
           and understanding biological processes.
 document_outline: |
   Overview computational biology and bioinformatics.
-
 document:
   repo: https://github.com/divya-dalal-ds/divya_knowledge.git
-  commit: 
+  commit: ddb25cdeaa98b0f95b0e2fe3c09a8942aca4b7e9
   patterns:
     - bioinformatics.md
