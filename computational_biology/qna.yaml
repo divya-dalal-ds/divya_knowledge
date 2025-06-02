@@ -1,7 +1,6 @@
----
 version: 3
-domain: computational_biology
-created_by: divya-dalal-ds
+domain: Bioinformatics
+created_by: divya
 seed_examples:
   - context: |
       Bionformatics is an interdisciplinary field of science that
@@ -12,6 +11,11 @@ seed_examples:
       Structural bioinformatics is the branch of bioinformatics that is related
       to the analysis and prediction of the three dimensional structure of
       biological macromolecules such as protein, RNA and DNA.
+      In bioinformatics, a sequence alignment is a way of arranging the
+      sequences of DNA, RNA, or protein to identify regions of
+      similarity that may be a
+      consequence of functional, structural, or evolutionary
+      relationships between sequences.
     questions_and_answers:
       - question: |
           What is Bioinformatics?
@@ -21,53 +25,14 @@ seed_examples:
           methods and software tools for understanding biological data,
           especially when the data sets are large and complex.
       - question: |
-          who wrote the book essential bioinformatics?
-        answer:
+          Who wrote the book essential bioinformatics?
+        answer: |
           The book esssential bioinformatics is written by Jin Xiong.
       - question: |
-          who coined the term bioinformatics?
+          Who coined the term bioinformatics?
         answer: |
           The term bioinformatics is coined by Paulien Hogeweg and
           Ben Hesper in 1970.
-      - question: |
-          what is structural bioinformatics?
-        answer: |
-          Structural bioinformatics is the branch of bioinformatics that is
-          related to the analysis and prediction of the three dimensional
-          structure of biological macromolecules such as protein, RNA and DNA.
-  - context: |
-      Computational biology refers to the use of techniques in
-      computer science, data analysis, mathematical modeling and
-      computational simulations to understand biological systems
-      and relationships. An intersection of compute
-      science, biology, and data science, the field also has foundations
-      in applied mathematics, molecular biology, cell biology,
-      chemistry, and genetics. Systems biology is one of its applications
-      which consists of computing the
-      interactions between various biological systems ranging
-      from the cellular level to entire populations.
-    questions_and_answers:
-      - question: |
-          What is Computational biology?
-        answer: |
-          Computational biology is the other name for
-          Bionformatics and it uses techniques in computer
-          science, data analysis, mathematical modeling and
-          computational simulations to understand biological systems.
-      - question: |
-          Which domains does it compose of?
-        answer:
-          It composes of domains like science, biology and data science.
-      - question: |
-          what is systems biology?
-        answer: |
-          Systems biology is an application of bioinformatics which
-          provides various computational tools to model biological
-          systems in silico
-      - question: |
-          what is in silico?
-        answer: |
-          In silico refers to the processes occuring within the computers.
   - context: |
       Perhaps the best known example of computational biology, the
       Human Genome Project, officially began in 1990.By
@@ -84,7 +49,7 @@ seed_examples:
           The human genome project.
       - question: |
           When did the Human genome project began?
-        answer:
+        answer: |
           It officially starrted in 1990.
       - question: |
           what is HGP?
@@ -93,73 +58,97 @@ seed_examples:
           began in 1990.By 2003, the project had mapped
           around 85% of the human genome, satisfying its
           initial goals.
-      - question: |
-          when did it officially get completed?
-        answer: |
-          Work continued, however, and by 2021 level
-          a completegenome was reached with only 0.3percent remaining
-          bases covered by potential issues.The missing Y chromosome was
-          added in January 2022.
   - context: |
-      Here are some of the best colleges for bioinformatics
-      Johns Hopkins University, Stanford University, University of
-      California San Diego, Massachusetts Institute of
-      Technology. Computational pharmacology is the study of
-      the effects of genomic data to find links between specific
-      genotypes and diseases and then screening drug data. The
-      pharmaceutical industry requires a shift in methods
-      to analyze drug data.
+      The Telomere-to-Telomere (T2T) Consortium is an international
+      scientific initiative that completed the first gapless
+      human genome sequence. It builds upon the original
+      Human Genome Project, which left approximately 8% of
+      the genome unsequenced due to technological
+      limitations. In 2022, the T2T Consortium released
+      the T2T-CHM13 reference genome, which added about 200 million
+      base pairs and included complex genomic regions
+      such as centromeres and segmental duplications. The
+      consortium later released the complete Y chromosome
+      sequence in 2023. This work improves our understanding
+      of human biology and enhances disease gene discovery.
     questions_and_answers:
       - question: |
-          Can I pursue bioinformatics as a degree?
+          What is the T2T consortium?
         answer: |
-          Yes, there are several colleges offering bioinformatics
-          a course for backelors and masters.
+          The T2T Consortium is a research initiative
+          that produced the first complete, gapless
+          sequence of the human genome, including
+          complex and previously unsequenced regions.
       - question: |
-          Can you list a few colleges?
-        answer:
-          Johns Hopkins University, Stanford University
-          provide access to cutting edge technology and research.
-          University of California San Diego and
-          Massachusetts Institute of Technology aid in
-          a comprehensive curriculum in bioinformatics.
-      - question: |
-          what is computational pharmacology?
+          How does the T2T Consortium build on the Human Genome Project?
         answer: |
-          It is the study of the effects of genomic data
-          to find links between specific
-          genotypes and diseases and then screening drug data.
+          The T2T Consortium completes the work of the Human
+          Genome Project by sequencing the 8percent of the
+          genome that was previously unsequenced due
+          to technological limitations.
       - question: |
-          how will bioinformatics help in pharaceutical industry?
+          What is the T2T-CHM13 reference genome?
         answer: |
-          The drug data analysis will be done on the computers which
-          reduce the time and increase efficiency of research.
-
+          The T2T-CHM13 is the first fully complete human
+          genome reference, released in 2022, which
+          includes nearly 200 million new base
+          pairs not present in GRCh38.
   - context: |
-      Molecular dynamics (MD) simulations are widely used in bioinformatics
-      to simulate the physical movements of atoms and molecules.
-      It helps predict protein folding, ligand binding, and structural changes.
+      The T2T Consortium used cutting-edge sequencing
+      technologies such as Oxford Nanopore ultra-long reads
+      and PacBio HiFi reads to accurately sequence difficult
+      regions of the genome. These tools enabled the assembly
+      of regions with repetitive sequences and structural
+      variations that had previously been inaccessible. The
+      T2T genome has a total length of about 3.055 billion
+      base pairs.
     questions_and_answers:
       - question: |
-          What is molecular dynamics simulation?
+          What sequencing technologies did the T2T Consortium use?
         answer: |
-          Molecular dynamics is a computational simulation method for studying
-          the physical movements of atoms and molecules over time.
+          The consortium used Oxford Nanopore ultra-long
+          reads and PacBio HiFi reads to sequence complex
+          and repetitive regions of the genome.
       - question: |
-          How is MD used in bioinformatics?
+          How many base pairs are in the T2T genome?
         answer: |
-          It is used to simulate protein folding, structural flexibility,
-          and interactions between biomolecules like proteins and ligands.
+          The T2T genome consists of approximately 3.055 billion base pairs.
       - question: |
-          What are the applications of MD simulations in bioinformatics?
+          Why were the previous genome assemblies incomplete?
         answer: |
-          MD simulations are used to predict protein folding, ligand binding,
-          and structural changes in biomolecules, aiding in drug discovery
-          and understanding biological processes.
+          Earlier genome assemblies were incomplete due to
+          technological limitations that made it difficult to
+          sequence highly repetitive and structurally complex regions.
+  - context: |
+      This complete reference allows researchers
+      to more accurately identify genetic variants and study
+      genomic diversity. The T2T Consortium's work also contributes
+      to the Human Pangenome Reference Consortium to
+      include genomic data from diverse populations.
+    questions_and_answers:
+      - question: |
+          What are some of the key benefits of the T2T genome?
+        answer: |
+          The complete genome enhances disease gene
+          discovery, improves genome annotation, and
+          supports the development of a more diverse
+          human pangenome reference.
+      - question: |
+          When was the complete Y chromosome sequence published by T2T?
+        answer: |
+          The complete Y chromosome sequence was released
+          in 2023 by the T2T Consortium.
+      - question: |
+          How does T2T contribute to the Human Pangenome Project?
+        answer: |
+          T2T provides a complete reference genome that serves as
+          a foundation for building a more inclusive pangenome
+          that captures genetic diversity from various ancestries.
 document_outline: |
-  Overview computational biology and bioinformatics.
+  Overview of bioinformatics and Human genome project.
+
 document:
   repo: https://github.com/divya-dalal-ds/divya_knowledge.git
-  commit: ddb25cdeaa98b0f95b0e2fe3c09a8942aca4b7e9
+  commit: 5f7158a5ce83c4ff493bfe341fe31ecad64ff697
   patterns:
     - bioinformatics.md
